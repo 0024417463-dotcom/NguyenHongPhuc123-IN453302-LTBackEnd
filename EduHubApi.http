@@ -1,0 +1,6 @@
+@EduHubApi_HostAddress = http://localhost:5008
+
+GET {{EduHubApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
