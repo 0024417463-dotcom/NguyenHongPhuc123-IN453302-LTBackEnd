@@ -1,0 +1,9 @@
+$kind: http-request
+name: "{{baseUrl}}/api/v1/courses"
+description: ""
+url: "{{baseUrl}}/api/v1/courses?hasSeats=true&sort=title"
+method: GET
+queryParams:
+  hasSeats: "true"
+  sort: title
+order: 6000

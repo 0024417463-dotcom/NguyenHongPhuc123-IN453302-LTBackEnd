@@ -1,0 +1,9 @@
+$kind: http-request
+name: "{{baseUrl}}/posts"
+description: ""
+url: "{{baseUrl}}/posts"
+method: POST
+body:
+  type: json
+  content: '{ "title": "Bai tap Postman", "body": "Thuc hanh 2.2", "userId": 1 }'
+order: 2000

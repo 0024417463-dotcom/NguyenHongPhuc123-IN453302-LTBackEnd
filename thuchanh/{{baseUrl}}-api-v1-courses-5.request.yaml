@@ -1,0 +1,6 @@
+$kind: http-request
+name: "{{baseUrl}}/api/v1/courses/5"
+description: ""
+url: "{{baseUrl}}/api/v1/courses/5"
+method: GET
+order: 3000

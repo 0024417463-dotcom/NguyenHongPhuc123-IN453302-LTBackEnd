@@ -1,0 +1,6 @@
+$kind: http-request
+name: "{{baseUrl}}/api/v1/registrations/42"
+description: ""
+url: "{{baseUrl}}/api/v1/registrations/42"
+method: DELETE
+order: 4000
